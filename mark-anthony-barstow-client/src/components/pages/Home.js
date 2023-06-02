@@ -33,7 +33,7 @@ export default function Home({handlePageChange}) {
                 <li>
                     <a
                     href='#code'
-                    // onClick={() => handlePageChange('Code')}
+                    onClick={() => console.dir(Event.target)}
                     >
                     CODE
                     </a>
@@ -41,7 +41,7 @@ export default function Home({handlePageChange}) {
                 <li>
                     <a
                     href='#photography'
-                    // onClick={() => handlePageChange('Photography')}
+                    onClick={() => console.dir(Event.target)}
                     >
                     PHOTOGRAPHY
                     </a>
@@ -49,7 +49,7 @@ export default function Home({handlePageChange}) {
                 <li>
                     <a
                     href='#music'
-                    // onClick={() => handlePageChange('Music')}
+                    onClick={() => console.dir(Event.target)}
                     >
                     MUSIC
                     </a>
@@ -57,5 +57,5 @@ export default function Home({handlePageChange}) {
             </ul>
 
         </div>
-    );
+    )
 }
