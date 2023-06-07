@@ -29,32 +29,6 @@ export default function Home({handlePageChange}) {
 
     return (
         <div className='homepage'>
-            <ul>
-                <li>
-                    <a
-                    href='#code'
-                    onClick={() => console.dir(Event.target)}
-                    >
-                    CODE
-                    </a>
-                </li>
-                <li>
-                    <a
-                    href='#photography'
-                    onClick={() => console.dir(Event.target)}
-                    >
-                    PHOTOGRAPHY
-                    </a>
-                </li>
-                <li>
-                    <a
-                    href='#music'
-                    onClick={() => console.dir(Event.target)}
-                    >
-                    MUSIC
-                    </a>
-                </li>
-            </ul>
 
         </div>
     )
