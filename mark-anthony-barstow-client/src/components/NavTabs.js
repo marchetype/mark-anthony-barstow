@@ -5,15 +5,6 @@ function NavTabs({ currentPage, handlePageChange }) {
         <div className='topbar'>
             <ul className='nav'>
                 <li>
-                    <a
-                    href='#home'
-                    onClick={() => handlePageChange('Home')}
-                    className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
-                    >
-                    HOME
-                    </a>
-                </li>
-                <li>
                     <a 
                     href='#code'
                     onClick={() => handlePageChange('Code')}
@@ -60,11 +51,16 @@ function NavTabs({ currentPage, handlePageChange }) {
                 </li>
             </ul>
             <div className='logo-section'>
-                <h2
-                className='logo'
-                onClick={() => handlePageChange('Home')}>
-                    MARK BARSTOW
-                </h2>
+                <a
+                href='#home'
+                onClick={() => handlePageChange('Home')}
+                className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
+                >
+                    <h2
+                    className='logo'>
+                        MARK BARSTOW
+                    </h2>
+                </a>
             </div>
         </div>
     )
