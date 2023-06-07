@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <div className='topbar'>
