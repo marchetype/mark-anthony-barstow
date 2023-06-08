@@ -9,7 +9,7 @@ export default function Music() {
             </aside>
             <main className='latest-releases'>
             {/* the main section will contain latest releases, in addition to any music announcements or special promotions. SCROLLABLE GRID */}
-
+            SOON TO COME... in development!
             </main>
         </div>
     );
