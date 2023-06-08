@@ -8,6 +8,7 @@ export default function Code() {
             <div
             className='github'>
                 {/* GH Logo element goes here */}
+                <img src='' alt='GitHub Logo'/>
                 <a
                 href='https://github.com/marchetype' target='_blank' rel='noreferrer'>
                     marchetype

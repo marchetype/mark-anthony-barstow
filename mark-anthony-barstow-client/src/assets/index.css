@@ -32,8 +32,9 @@ a {
 }
 
 html {
-    background-color: var(--charcoal);
+    background-color: var(--bright-gray-6);
     color: var(--bright-gray-6);
+    font-size: .75em;
     font-family: 'Raleway', sans-serif;
 }
 h1 {
