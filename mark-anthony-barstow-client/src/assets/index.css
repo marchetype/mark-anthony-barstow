@@ -21,6 +21,21 @@
     --bright-gray-6: #B5B5B5;
 }
 
-.mini-logo {
-    max-width: 50px;
+.mini-logo-gh {
+    scale: 50%;
+
+}
+
+.code-projects {
+    border: 4px solid black;
+}
+
+.card {
+    margin: 11px 0px 11px 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
 }
