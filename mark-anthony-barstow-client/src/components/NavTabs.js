@@ -5,7 +5,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     return (
         <div className='container-fluid'>
             <div className='navbar bg-light'>
-                <ul className='col-12 col-sm-7 d-flex justify-content-around'>
+                <ul className='col-12 col-md-7 d-flex justify-content-around'>
                     <li>
                         <a 
                         href='#code'
