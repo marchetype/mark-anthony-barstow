@@ -3,8 +3,8 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <div className='topbar'>
-            <ul className='nav'>
+        <div className='container-fluid'>
+            <ul className='navbar bg-light justify-content-around'>
                 <li>
                     <a 
                     href='#code'
@@ -50,19 +50,20 @@ function NavTabs({ currentPage, handlePageChange }) {
                     CONTACT
                     </a>
                 </li>
+                <div className='navbar-brand float-right'>
+                    <a
+                    href='#home'
+                    onClick={() => handlePageChange('Home')}
+                    className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
+                    >
+                        <h2
+                        className='logo'>
+                            MARK BARSTOW
+                        </h2>
+                    </a>
+                </div>
             </ul>
-            <div className='logo-section'>
-                <a
-                href='#home'
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
-                >
-                    <h2
-                    className='logo'>
-                        MARK BARSTOW
-                    </h2>
-                </a>
-            </div>
+
         </div>
     )
 }
