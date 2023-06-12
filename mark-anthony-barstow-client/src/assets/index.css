@@ -23,7 +23,10 @@
 
 .mini-logo-gh {
     scale: 50%;
-
+}
+.mini-logo-ig {
+    max-width: 75px;
+    min-height: 25px;
 }
 
 .code-projects {

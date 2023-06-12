@@ -41,9 +41,7 @@ export default function RenderCodeProjects() {
     const codeProjects = projectsArr.map(project =>
         <section className='col-4'>
                 <div className='card' key={project.id}>
-                        <img className='card-img-top' src={project.thumbnail} alt={project.img_alt}/>
-
-                    
+                    <img className='card-img-top' src={project.thumbnail} alt={project.img_alt}/>
                     <div className='card-body'>
                         <h5 className='card-title'>{project.title}</h5>
                         <p className='card-text'>{project.description}</p>
