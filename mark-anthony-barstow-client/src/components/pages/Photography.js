@@ -21,12 +21,18 @@ export default function Photography() {
             </div>
             <main className='photo-showcase'>
             {/* the main section may be able to provide two displays, one for smaller photos and one to show them in a larger size */}
-                <section className='primary-display'>
+                <div className='row'>
+                    <section className='primary-display col-12 justify-content-center'>
+                        
+                    </section>
+                    <section className='secondary-display col-12 col-md-6'>
+                        <h3>half-section</h3>
+                    </section>
+                    <section className='secondary-display col-12 col-md-6'>
+                        <h3>half-section</h3>
+                    </section>
+                </div>
 
-                </section>
-                <section className='secondary-display'>
-
-                </section>
             </main>
         </div>
     );

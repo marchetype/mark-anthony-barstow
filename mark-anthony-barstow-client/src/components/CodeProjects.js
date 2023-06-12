@@ -45,6 +45,8 @@ export default function RenderCodeProjects() {
                     <div className='card-body'>
                         <h5 className='card-title'>{project.title}</h5>
                         <p className='card-text'>{project.description}</p>
+                    </div>
+                    <div className='card-footer align-items-center'>
                         <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn btn-primary'>App Link</a>
                         <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn btn-secondary'>GitHub</a>
                     </div>

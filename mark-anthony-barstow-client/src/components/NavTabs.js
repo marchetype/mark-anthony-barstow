@@ -17,20 +17,20 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </li>
                     <li>
                         <a
-                        href='#music'
-                        onClick={() => handlePageChange('Music')}
-                        className={currentPage === 'Music' ? 'nav-link-active' : 'nav-link'}
-                        >
-                        MUSIC
-                        </a>
-                    </li>
-                    <li>
-                        <a
                         href='#photography'
                         onClick={() => handlePageChange('Photography')}
                         className={currentPage === 'Photography' ? 'nav-link-active' : 'nav-link'}
                         >
                         PHOTOGRAPHY
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                        href='#music'
+                        onClick={() => handlePageChange('Music')}
+                        className={currentPage === 'Music' ? 'nav-link-active' : 'nav-link'}
+                        >
+                        MUSIC
                         </a>
                     </li>
                     <li>
