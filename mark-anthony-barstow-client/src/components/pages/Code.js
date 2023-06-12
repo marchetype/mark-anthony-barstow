@@ -3,24 +3,22 @@ import ghLogo from '../../assets/images/github-sign.png'
 
 export default function Code() {
     return (
-        <div className='code-section'>
-                <aside className=''>
+        <div className='container-fluid'>
+                <aside className='sm-col-12 md-col-2'>
                 {/* this aside section will provide links to GitHub, other code-related sites */}
-                    <nav className='w-10'>
+                    <nav className=''>
                         <h4>External Links</h4>
-                        <div className='align-items-center'>
-                        {/* GH Logo element goes here */}
-                            <img src={ghLogo} alt='GitHub Logo' className='mini-logo'/>
+                        <div className=''>
                             <a
-                            href='https://github.com/marchetype' target='_blank' rel='noreferrer'>
-                            marchetype
+                            href='https://github.com/marchetype' target='_blank' rel='noreferrer' className='d-flex flex-row align-items-center'>
+                            {/* GH Logo element goes here */}
+                            <img src={ghLogo} alt='GitHub Logo' className='mini-logo'/>
+                            <h5>marchetype</h5>
                             </a>
-                    </div>
+                        </div>
                     </nav>
-                    
                 </aside>
-            <div className='aside-border'/>
-            <main className='code-highlights container text-center'>
+            <main className='col-'>
             {/* the main section will include all latest projects in a SCROLLABLE GRID */}
 
             </main>

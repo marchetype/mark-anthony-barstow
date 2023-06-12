@@ -20,3 +20,7 @@
     --bright-gray-5: #C0C0C0;
     --bright-gray-6: #B5B5B5;
 }
+
+.mini-logo {
+    max-width: 50px;
+}
