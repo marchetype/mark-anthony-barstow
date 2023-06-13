@@ -6,6 +6,8 @@ import photo2 from '../assets/images/codeImages/photo2.png';
 
 
 export default function RenderCodeProjects() {
+    //this array consists of all projects displayed on page. 
+    //the data in projectsArr is read by the functions below it and rendered to the page on Code.js.
     const projectsArr = [
         {
             id: 0,
@@ -47,7 +49,7 @@ export default function RenderCodeProjects() {
                         <p className='card-text'>{project.description}</p>
                     </div>
                     <div className='card-footer align-items-center'>
-                        <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn btn-primary'>App Link</a>
+                        <a href={project.link} target='_blank' rel='noreferrer' className='btn btn-primary'>App Link</a>
                         <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn btn-secondary'>GitHub</a>
                     </div>
                 </div>
