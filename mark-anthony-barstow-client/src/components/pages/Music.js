@@ -11,7 +11,7 @@ export default function Music() {
                             <a
                             href='https://soundcloud.com/user-271681043' target='_blank' rel='noreferrer' className='row align-items-center'>
                             {/* GH Logo element goes here */}
-                            <img src={scLogo} alt='Instagram Logo' className='mini-logo-sc col-2'/>
+                            <img src={scLogo} alt='SoundCloud Logo' className='mini-logo-sc col-2'/>
                             <h5 className='col-2'>Baarstow</h5>
                             </a>
                         </div>
