@@ -4,6 +4,9 @@ import photo0 from '../assets/images/codeImages/photo0.png';
 import photo1 from '../assets/images/codeImages/photo1.png';
 import photo2 from '../assets/images/codeImages/photo2.png';
 import photo3 from '../assets/images/codeImages/photo3.png';
+import photo4 from '../assets/images/codeImages/photo4.png';
+import photo5 from '../assets/images/codeImages/photo5.png';
+
 
 
 export default function RenderCodeProjects() {
@@ -45,6 +48,24 @@ export default function RenderCodeProjects() {
             description: 'Social Media Application made using MERN stack; features custom Material UI styling.',
             link: '',
             gh_link: 'https://github.com/samocain93/bird-brain/tree/dev',
+        },
+        {
+            id: 4,
+            thumbnail: photo4,
+            img_alt: 'Deployed Application: jQuery Day Planner',
+            title: 'jQuery Day Planner',
+            description: 'Using jQuery and day.js to create a productivity-focused web application. LocaStorage used to save note data.',
+            link: 'https://marchetype.github.io/jQuery-day.js-DayPlanner/',
+            gh_link: 'https://github.com/marchetype/jQuery-day.js-DayPlanner',
+        },
+        {
+            id: 5,
+            thumbnail: photo5,
+            img_alt: 'Deployed Application: Password Generator',
+            title: 'JavaScript Password Generator',
+            description: 'This web application makes it easy to generate a custom random password through parameters chosen by the user.',
+            link: 'https://marchetype.github.io/Password-Generator/',
+            gh_link: 'https://github.com/marchetype/Password-Generator', 
         }
     ]
     

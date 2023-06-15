@@ -3,11 +3,11 @@ import scLogo from '../../assets/images/soundcloud-icon.png'
 
 export default function Music() {
     return (
-        <div className='music-section'> 
+        <div className='container-fluid'> 
             <section className='col-12'>
                     <nav className=''>
                         <h4>External Links</h4>
-                        <div className='container-fluid'>
+                        <div>
                             <a
                             href='https://www.instagram.com/baarstow/' target='_blank' rel='noreferrer' className='row align-items-center'>
                             {/* GH Logo element goes here */}
