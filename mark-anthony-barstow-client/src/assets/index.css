@@ -23,6 +23,7 @@
     --bright-gray-6: #B5B5B5;
 }
 
+/* CLASS STYLING */
 .mini-logo-gh {
     max-width: 50px;
     min-width: 50px;
@@ -62,10 +63,9 @@
 a {
     color: var(--charcoal)
 }
+
 .home-letter-m, .home-letter-a, .home-letter-b {
     background-color: var(--bright-gray-2);
-    display: flex;
-    justify-content: center;
     font-size: 160pt;
 }
 .home-letter-m:hover {
@@ -77,11 +77,11 @@ a {
 .home-letter-b:hover {
     color: var(--bright-coral);
 }
-html {
-    background-color: var(--bright-gray-2);
+.home-letter:hover > .child-letters {
+    color: var(--charcoal);
 }
-li {
-    list-style-type: none;
+.child-letters {
+    color: var(--bright-gray-2);
 }
 .logo {
     color: var(--ocean-green);
@@ -103,4 +103,11 @@ li {
     font-weight: 800;
     text-decoration-line: none;
     color: var(--charcoal);
+}
+/* ELEMENT STYLING */
+html {
+    background-color: var(--bright-gray-2);
+}
+li {
+    list-style-type: none;
 }

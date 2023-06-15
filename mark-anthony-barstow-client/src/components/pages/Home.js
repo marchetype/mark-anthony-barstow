@@ -32,10 +32,20 @@ export default function Home({handlePageChange}) {
             <div className='row'>
                 <div className='col-4'></div>
                 <div className='col-4'>
-                    <div className='row'>
-                        <h2 className='home-letter-m col-4'>M</h2>
-                        <h2 className='home-letter-a col-4'>A</h2>
-                        <h2 className='home-letter-b col-4'>B</h2>
+                    <div className='justify-content-around'>
+                        <div className='home-letter d-flex flex-row align-items-center'>
+                            <h2 className='home-letter-m row'>M</h2>
+                            <h3 className='child-letters'>ark</h3>
+                        </div>
+                        <div className='home-letter d-flex flex-row align-items-center'>
+                            <h2 className='home-letter home-letter-a row'>A</h2>
+                            <h3 className='child-letters'>nthony</h3>
+                        </div>
+                        <div className='home-letter d-flex flex-row align-items-center'>
+                            <h2 className='home-letter home-letter-b row'>B</h2>
+                            <h3 className='child-letters'>arstow</h3>
+                        </div>
+
                     </div>
                 </div>
                 <div className='col-4'></div>
