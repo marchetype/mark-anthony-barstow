@@ -30,14 +30,16 @@ export default function Photography() {
                 <div className='row'>
                     <section className='primary-display col-12 justify-content-center'>
                         <div className='row'>
-
+                            <div className='col-4'></div>
+                            <h4 className='col-4'>Page in Development</h4>
+                            <div className='col-4'></div>
                         </div>
                     </section>
                     <section className='secondary-display col-12 col-md-6'>
-                        <h3>half-section</h3>
+
                     </section>
                     <section className='secondary-display col-12 col-md-6'>
-                        <h3>half-section</h3>
+
                     </section>
                 </div>
 

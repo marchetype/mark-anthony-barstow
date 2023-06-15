@@ -1,15 +1,29 @@
 import React from 'react';
+import scLogo from '../../assets/images/soundcloud-icon.png'
 
 export default function Music() {
     return (
         <div className='music-section'> 
-            <aside className='external-links'>
-            {/* this aside section will be located on the left side of screen, linking user to SoundCloud and Spotify */}
-
-            </aside>
+            <section className='col-12'>
+                    <nav className=''>
+                        <h4>External Links</h4>
+                        <div className='container-fluid'>
+                            <a
+                            href='https://www.instagram.com/baarstow/' target='_blank' rel='noreferrer' className='row align-items-center'>
+                            {/* GH Logo element goes here */}
+                            <img src={scLogo} alt='Instagram Logo' className='mini-logo-sc col-2'/>
+                            <h5 className='col-2'>Baarstow</h5>
+                            </a>
+                        </div>
+                    </nav>
+            </section>
             <main className='latest-releases'>
             {/* the main section will contain latest releases, in addition to any music announcements or special promotions. SCROLLABLE GRID */}
-            SOON TO COME... in development!
+            <div className='row'>
+                            <div className='col-4'></div>
+                            <h4 className='col-4'>Page in Development</h4>
+                            <div className='col-4'></div>
+                        </div>
             </main>
         </div>
     );

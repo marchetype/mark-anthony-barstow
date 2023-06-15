@@ -3,9 +3,8 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <div className='container-fluid'>
-            <div className='navbar bg-light'>
-                <ul className='col-12 col-md-7 d-flex justify-content-around'>
+            <div className='container-fluid navbar navigation-styles'>
+                <ul className='col-12 col-md-7 d-flex justify-content-around '>
                     <li>
                         <a 
                         href='#code'
@@ -56,7 +55,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                         <a
                         href='#home'
                         onClick={() => handlePageChange('Home')}
-                        className={currentPage === 'Home' ? 'nav-link-active' : 'nav-link'}
+                        className={currentPage === 'Home' ? 'nav-link-active-logo' : 'nav-link'}
                         >
                             <h2
                             className='logo'>
@@ -66,7 +65,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                     </div>
             </div>
 
-        </div>
+
     )
 }
 
