@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mark-anthony-barstow/static/css/main.123c61fa.css",
+    "main.css": "/mark-anthony-barstow/static/css/main.ceb965ad.css",
     "main.js": "/mark-anthony-barstow/static/js/main.b7c5c503.js",
     "static/media/photo1.png": "/mark-anthony-barstow/static/media/photo1.e9e4ed409468d1875dd8.png",
     "static/media/homepage.jpg": "/mark-anthony-barstow/static/media/homepage.7099ac417d2f4bc32a3d.jpg",
@@ -13,11 +13,11 @@
     "static/media/photo5.png": "/mark-anthony-barstow/static/media/photo5.fa154d9f8171bab3c4d9.png",
     "static/media/soundcloud-icon.png": "/mark-anthony-barstow/static/media/soundcloud-icon.a19fa2c764eeafbcb487.png",
     "index.html": "/mark-anthony-barstow/index.html",
-    "main.123c61fa.css.map": "/mark-anthony-barstow/static/css/main.123c61fa.css.map",
+    "main.ceb965ad.css.map": "/mark-anthony-barstow/static/css/main.ceb965ad.css.map",
     "main.b7c5c503.js.map": "/mark-anthony-barstow/static/js/main.b7c5c503.js.map"
   },
   "entrypoints": [
-    "static/css/main.123c61fa.css",
+    "static/css/main.ceb965ad.css",
     "static/js/main.b7c5c503.js"
   ]
 }
