@@ -36,6 +36,12 @@
     max-width: 60px;
     min-width: 60px;
 }
+.barrier {
+    height: 50px;
+}
+.bg-photo-home {
+    position: absolute;
+}
 .code-projects {
     border: 4px solid black;
 }
@@ -55,7 +61,7 @@
     object-fit: cover;
 }
 .container-fluid {
-    background-color: var(--bright-gray-2);
+    background-color: var(--bright-gray-4);
 }
 .navigation-styles {
     background-color: var(--slate-gray);
@@ -63,25 +69,20 @@
 a {
     color: var(--charcoal)
 }
-
 .home-letter-m, .home-letter-a, .home-letter-b {
-    background-color: var(--bright-gray-2);
     font-size: 160pt;
 }
-.home-letter-m:hover {
-    color: var(--bright-coral);
-}
-.home-letter-a:hover {
-    color: var(--ocean-green);
-}
-.home-letter-b:hover {
-    color: var(--bright-coral);
+.home-letter:hover{
+    color: var(--bright-gray-2);
 }
 .home-letter:hover > .child-letters {
-    color: var(--charcoal);
+    color: var(--bright-gray-2);
+}
+.homepage {
+    height: 100%;
 }
 .child-letters {
-    color: var(--bright-gray-2);
+    color: var(--charcoal);
 }
 .logo {
     color: var(--ocean-green);
@@ -96,7 +97,7 @@ a {
 .nav-link-active {
     font-weight: 800;
     text-decoration-line: none;
-    color: var(--charcoal);
+    color: var(--burnt-orange);
 }
 
 .nav-link-active-logo {
@@ -104,9 +105,15 @@ a {
     text-decoration-line: none;
     color: var(--charcoal);
 }
+.portrait {
+    width: 400px;
+    height: auto;
+    border: 3px solid var(--charcoal);
+    border-radius: 500px;
+}
 /* ELEMENT STYLING */
 html {
-    background-color: var(--bright-gray-2);
+    background-color: var(--slate-gray);
 }
 li {
     list-style-type: none;
