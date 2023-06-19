@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
                 return <Photography />;
             default:
                 return <Home />;
-        };
+        }
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
