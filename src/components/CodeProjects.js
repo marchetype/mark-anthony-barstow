@@ -73,22 +73,22 @@ export default function RenderCodeProjects() {
     //rendering projects to the page from projectsArr
     const codeProjects = projectsArr.map(project =>
         <section className='col-12 col-md-6 col-lg-4'>
-                <div className='card' key={project.id}>
+                <div className='card bright-gray-6' key={project.id}>
                     <img className='card-img-top' src={project.thumbnail} alt={project.img_alt}/>
                     <div className='card-body'>
                         <h5 className='card-title'>{project.title}</h5>
                         <p className='card-text'>{project.description}</p>
                     </div>
-                    <div className='card-footer align-items-center'>
+                    <div className='card-footer align-items-center '>
                         {project.link !== '' &&
-                            <a href={project.link} target='_blank' rel='noreferrer' className='btn btn-primary'>App Link</a>}
-                        <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn btn-secondary'>GitHub</a>
+                            <a href={project.link} target='_blank' rel='noreferrer' className='btn deep-seafoam btn-primary'>App Link</a>}
+                        <a href={project.gh_link} target='_blank' rel='noreferrer' className='btn slate-gray btn-secondary'>GitHub</a>
                     </div>
                 </div>
         </section>
     )
     return(
-    <main className='col-12 col-md-9 container code-projects'>
+    <main className='col-12 col-md-9 container code-projects light-charcoal'>
         <div className='row'>
             {codeProjects}
         </div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-            <div className='container-fluid navbar navigation-styles'>
+            <div className='container-fluid navbar slate-gray'>
                 <ul className='col-12 col-md-7 d-flex justify-content-around '>
                         <li>
                             <a 

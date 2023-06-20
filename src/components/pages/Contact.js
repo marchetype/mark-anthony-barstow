@@ -3,7 +3,7 @@ import liLogo from '../../assets/images/linkedInLogo.png';
 
 export default function Contact() {
   return (
-  <div className='container-fluid'> 
+  <div className='container-fluid bright-gray-4'> 
     <section className='barrier'/>
     <section className='col-12'>
             <nav className=''>

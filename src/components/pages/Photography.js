@@ -9,7 +9,7 @@ import igLogo from '../../assets/images/instagram-icon.png';
 
 export default function Photography() {
     return (
-        <div className='photo-section container-fluid'>
+        <div className='photo-section container-fluid bright-gray-4'>
             <section className='barrier'/>
             <div className='row'>
                 <section className='col-12'>

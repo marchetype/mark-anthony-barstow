@@ -7,8 +7,8 @@ import cssLogo from '../assets/images/css-logo.svg';
 
 export default function Footer() {
     return(
-        <div className='floater'>
-            <footer className='container-fluid row navigation-styles'>
+        <div className='slate-gray'>
+            <footer className='container-fluid row'>
                 <section className='barrier'/>
                 <div className='col-12 col-md-4'>
                     <h6 className='row justify-content-center'>Technologies used</h6>
