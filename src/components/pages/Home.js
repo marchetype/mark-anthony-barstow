@@ -8,19 +8,17 @@ export default function Home({handlePageChange}) {
     return (
         <div  style={{ backgroundImage:`url(${homepageImg})` }}  className='homepage container-fluid'>                
             <div className='row'>
+                <div className='col-8'/>
                 <div className='col-4'>
-                    <div>
-                        <div className='home-letter d-flex flex-row align-items-center'>
+                    <div className='title-card'>
+                        <div className='home-letter d-flex flex-row justify-content-center'>
                             <h2 className='home-letter-m row'>M</h2>
-                            <h3 className='child-letters'>ark</h3>
                         </div>
-                        <div className='home-letter d-flex flex-row align-items-center'>
-                            <h2 className='home-letter home-letter-a row'>A</h2>
-                            <h3 className='child-letters'>nthony</h3>
+                        <div className='home-letter d-flex flex-row justify-content-center'>
+                            <h2 className='home-letter-a row'>A</h2>
                         </div>
-                        <div className='home-letter d-flex flex-row align-items-center'>
-                            <h2 className='home-letter home-letter-b row'>B</h2>
-                            <h3 className='child-letters'>arstow</h3>
+                        <div className='home-letter d-flex flex-row justify-content-center'>
+                            <h2 className='home-letter-b row'>B</h2>
                         </div>
 
                     </div>
