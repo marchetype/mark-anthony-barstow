@@ -133,6 +133,10 @@ a {
 Footer, Footer a {
     color: var(--bright-gray-1);
 }
+.footer-logo {
+    width: 50px;
+    height:auto;
+}
 /* ELEMENT STYLING */
 html {
     background-color: var(--slate-gray);
