@@ -3,7 +3,8 @@ import liLogo from '../../assets/images/linkedInLogo.png';
 
 export default function Contact() {
   return (
-    <div className='container-fluid'> 
+  <div className='container-fluid'> 
+    <section className='barrier'/>
     <section className='col-12'>
             <nav className=''>
                 <h4>External Links</h4>
@@ -25,6 +26,7 @@ export default function Contact() {
                     <div className='col-4'></div>
                 </div>
     </main>
+    <section className='barrier'/>
 </div>
   );
 }

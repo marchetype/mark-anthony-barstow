@@ -4,6 +4,7 @@ import scLogo from '../../assets/images/soundcloud-icon.png'
 export default function Music() {
     return (
         <div className='container-fluid'> 
+            <section className='barrier'/>
             <section className='col-12'>
                     <nav className=''>
                         <h4>External Links</h4>
@@ -25,6 +26,7 @@ export default function Music() {
                             <div className='col-4'></div>
                         </div>
             </main>
+            <section className='barrier'/>
         </div>
     );
 }

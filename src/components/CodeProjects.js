@@ -54,7 +54,7 @@ export default function RenderCodeProjects() {
             thumbnail: photo4,
             img_alt: 'Deployed Application: jQuery Day Planner',
             title: 'jQuery Day Planner',
-            description: 'Using jQuery and day.js to create a productivity-focused web application. LocaStorage used to save note data.',
+            description: 'Using jQuery and day.js to create a productivity-focused web application. LocalStorage used to save note data.',
             link: 'https://marchetype.github.io/jQuery-day.js-DayPlanner/',
             gh_link: 'https://github.com/marchetype/jQuery-day.js-DayPlanner',
         },

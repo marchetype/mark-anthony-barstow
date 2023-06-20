@@ -5,6 +5,7 @@ import RenderCodeProjects from '../CodeProjects';
 export default function Code() {
     return (
         <div className='container-fluid'>
+            <section className='barrier'/>
             <div className='row'>
                 <aside className='col-12 col-md-3'>
                 {/* this aside section will provide links to GitHub, other code-related sites */}
@@ -24,6 +25,7 @@ export default function Code() {
                 {RenderCodeProjects()}
         
             </div> 
+            <section className='barrier'/>
         </div>
     );
 }

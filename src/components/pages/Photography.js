@@ -10,6 +10,7 @@ import igLogo from '../../assets/images/instagram-icon.png';
 export default function Photography() {
     return (
         <div className='photo-section container-fluid'>
+            <section className='barrier'/>
             <div className='row'>
                 <section className='col-12'>
                     <nav className=''>
@@ -44,6 +45,7 @@ export default function Photography() {
                 </div>
 
             </main>
+            <section className='barrier'/>
         </div>
     );
 }

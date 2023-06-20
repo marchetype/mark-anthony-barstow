@@ -4,7 +4,7 @@ import portraitPhoto from '../../assets/images/markBPhoto1.png';
 export default function About() {
   return (
     <div className='container-fluid'>
-      <div className='barrier'></div>
+      <section className='barrier'/>
       <div className='row d-flex align-items-center'>
       <div className='col-lg-2'></div>
         <div className='col-12 col-md-6 col-lg-4'>
@@ -21,6 +21,7 @@ export default function About() {
           <img src={portraitPhoto} className='portrait' alt='Portrait'/>
         </div>
       </div>
+      <section className='barrier'/>
     </div>
   );
 }
