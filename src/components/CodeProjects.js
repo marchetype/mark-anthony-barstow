@@ -72,7 +72,7 @@ export default function RenderCodeProjects() {
     
     //rendering projects to the page from projectsArr
     const codeProjects = projectsArr.map(project =>
-        <section className='col-4'>
+        <section className='col-12 col-md-6 col-lg-4'>
                 <div className='card' key={project.id}>
                     <img className='card-img-top' src={project.thumbnail} alt={project.img_alt}/>
                     <div className='card-body'>
