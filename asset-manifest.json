@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mark-anthony-barstow/static/css/main.cf9e7042.css",
-    "main.js": "/mark-anthony-barstow/static/js/main.9a40e5b5.js",
+    "main.js": "/mark-anthony-barstow/static/js/main.dd59f020.js",
     "static/media/photo1.png": "/mark-anthony-barstow/static/media/photo1.e9e4ed409468d1875dd8.png",
     "static/media/homepage.jpg": "/mark-anthony-barstow/static/media/homepage.7099ac417d2f4bc32a3d.jpg",
     "static/media/photo2.png": "/mark-anthony-barstow/static/media/photo2.2ed8fb8960f924b94548.png",
@@ -19,10 +19,10 @@
     "static/media/bootstrap-logo.svg": "/mark-anthony-barstow/static/media/bootstrap-logo.49855ee39100118d9095c1216f2c92f0.svg",
     "index.html": "/mark-anthony-barstow/index.html",
     "main.cf9e7042.css.map": "/mark-anthony-barstow/static/css/main.cf9e7042.css.map",
-    "main.9a40e5b5.js.map": "/mark-anthony-barstow/static/js/main.9a40e5b5.js.map"
+    "main.dd59f020.js.map": "/mark-anthony-barstow/static/js/main.dd59f020.js.map"
   },
   "entrypoints": [
     "static/css/main.cf9e7042.css",
-    "static/js/main.9a40e5b5.js"
+    "static/js/main.dd59f020.js"
   ]
 }
