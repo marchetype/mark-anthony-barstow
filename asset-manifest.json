@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mark-anthony-barstow/static/css/main.cf9e7042.css",
-    "main.js": "/mark-anthony-barstow/static/js/main.dd59f020.js",
+    "main.css": "/mark-anthony-barstow/static/css/main.179dfc22.css",
+    "main.js": "/mark-anthony-barstow/static/js/main.08d0e34f.js",
     "static/media/photo1.png": "/mark-anthony-barstow/static/media/photo1.e9e4ed409468d1875dd8.png",
     "static/media/homepage.jpg": "/mark-anthony-barstow/static/media/homepage.7099ac417d2f4bc32a3d.jpg",
     "static/media/photo2.png": "/mark-anthony-barstow/static/media/photo2.2ed8fb8960f924b94548.png",
@@ -18,11 +18,11 @@
     "static/media/css-logo.svg": "/mark-anthony-barstow/static/media/css-logo.0b435e818710854aebd35efe9280f77c.svg",
     "static/media/bootstrap-logo.svg": "/mark-anthony-barstow/static/media/bootstrap-logo.49855ee39100118d9095c1216f2c92f0.svg",
     "index.html": "/mark-anthony-barstow/index.html",
-    "main.cf9e7042.css.map": "/mark-anthony-barstow/static/css/main.cf9e7042.css.map",
-    "main.dd59f020.js.map": "/mark-anthony-barstow/static/js/main.dd59f020.js.map"
+    "main.179dfc22.css.map": "/mark-anthony-barstow/static/css/main.179dfc22.css.map",
+    "main.08d0e34f.js.map": "/mark-anthony-barstow/static/js/main.08d0e34f.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf9e7042.css",
-    "static/js/main.dd59f020.js"
+    "static/css/main.179dfc22.css",
+    "static/js/main.08d0e34f.js"
   ]
 }
