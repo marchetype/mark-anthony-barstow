@@ -89,6 +89,9 @@ a {
 
 .homepage {
     height: 100%;
+    background-color: var(--charcoal);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .title-card {
     background-color: var(--bright-gray-5);
@@ -102,6 +105,7 @@ a {
     font-weight: 900;
     font-style: italic;
 }
+
 .nav-link {
     font-weight: 750;
     text-decoration-line: none;
@@ -124,11 +128,17 @@ a {
     border: 3px solid var(--charcoal);
     border-radius: 500px;
 }
+/*footer styling*/
 
+Footer, Footer a {
+    color: var(--bright-gray-1);
+}
 /* ELEMENT STYLING */
 html {
     background-color: var(--slate-gray);
+    height: 100%;
 }
 li {
     list-style-type: none;
 }
+

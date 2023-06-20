@@ -6,7 +6,7 @@ import homepageImg from '../../assets/images/homepage.jpg';
 export default function Home({handlePageChange}) {
     
     return (
-        <div  style={{ backgroundImage:`url(${homepageImg})` }}  className='homepage container-fluid'>                
+        <div  style={{ backgroundImage:`url(${homepageImg})`}}  className='homepage container-fluid'>                
             <div className='row'>
                 <div className='col-8'/>
                 <div className='col-4'>
