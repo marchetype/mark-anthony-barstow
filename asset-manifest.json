@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mark-anthony-barstow/static/css/main.6e80d089.css",
-    "main.js": "/mark-anthony-barstow/static/js/main.09b19fa1.js",
+    "main.css": "/mark-anthony-barstow/static/css/main.cf9e7042.css",
+    "main.js": "/mark-anthony-barstow/static/js/main.9a40e5b5.js",
     "static/media/photo1.png": "/mark-anthony-barstow/static/media/photo1.e9e4ed409468d1875dd8.png",
     "static/media/homepage.jpg": "/mark-anthony-barstow/static/media/homepage.7099ac417d2f4bc32a3d.jpg",
     "static/media/photo2.png": "/mark-anthony-barstow/static/media/photo2.2ed8fb8960f924b94548.png",
@@ -12,16 +12,17 @@
     "static/media/instagram-icon.png": "/mark-anthony-barstow/static/media/instagram-icon.42c20aec6fa7337c01ce.png",
     "static/media/photo5.png": "/mark-anthony-barstow/static/media/photo5.fa154d9f8171bab3c4d9.png",
     "static/media/soundcloud-icon.png": "/mark-anthony-barstow/static/media/soundcloud-icon.a19fa2c764eeafbcb487.png",
-    "static/media/react-logo.svg": "/mark-anthony-barstow/static/media/react-logo.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/react-logo-2.svg": "/mark-anthony-barstow/static/media/react-logo-2.749afd9dc7fdedaacf45f1f4b44f545c.svg",
+    "static/media/javascript-logo.svg": "/mark-anthony-barstow/static/media/javascript-logo.37270e3adc5620c25b5e9b9b6cc900d6.svg",
     "static/media/html-logo.svg": "/mark-anthony-barstow/static/media/html-logo.10a58682adde3b5e6f2be37de92758cf.svg",
-    "static/media/bootstrap-logo.svg": "/mark-anthony-barstow/static/media/bootstrap-logo.eeb4b4d13986b50be04fab3f3ba14447.svg",
     "static/media/css-logo.svg": "/mark-anthony-barstow/static/media/css-logo.0b435e818710854aebd35efe9280f77c.svg",
+    "static/media/bootstrap-logo.svg": "/mark-anthony-barstow/static/media/bootstrap-logo.49855ee39100118d9095c1216f2c92f0.svg",
     "index.html": "/mark-anthony-barstow/index.html",
-    "main.6e80d089.css.map": "/mark-anthony-barstow/static/css/main.6e80d089.css.map",
-    "main.09b19fa1.js.map": "/mark-anthony-barstow/static/js/main.09b19fa1.js.map"
+    "main.cf9e7042.css.map": "/mark-anthony-barstow/static/css/main.cf9e7042.css.map",
+    "main.9a40e5b5.js.map": "/mark-anthony-barstow/static/js/main.9a40e5b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e80d089.css",
-    "static/js/main.09b19fa1.js"
+    "static/css/main.cf9e7042.css",
+    "static/js/main.9a40e5b5.js"
   ]
 }
