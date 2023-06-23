@@ -18,7 +18,7 @@ export default function Footer() {
                         <section className='row logo-section'>
                             <img src={bootstrapLogo} alt='Bootstrap 5' className='footer-logo'/>
                             <img src={reactLogo} alt='React.js' className='footer-logo'/>
-                            <img src={jsLogo} alt='JavaScript' className='footer-logo'></img>
+                            <img src={jsLogo} alt='JavaScript' className='footer-logo'/>
                             <img src={cssLogo} alt='CSS3' className='footer-logo'/>
                             <img src={htmlLogo} alt='HTML5' className='footer-logo'/>
                         </section>

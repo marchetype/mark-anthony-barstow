@@ -27,6 +27,6 @@ export default function Contact() {
                 </div>
     </main>
     <section className='barrier'/>
-</div>
+  </div>
   );
 }

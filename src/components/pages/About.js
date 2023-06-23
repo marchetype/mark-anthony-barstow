@@ -11,8 +11,8 @@ export default function About() {
             <h3>About Me</h3>
             <p>
                   22 y/o full-stack bootcamp graduate looking to enhance creative skills through code. 
-                  In addition to software engineering, i find great interest in the subjects of visual art, 
-                  design, and music production. Work to turn daydreams into reality.
+                  In addition to software engineering, I find great interest in the subjects of visual art, 
+                  design, and music production. Working to turn daydreams into reality.
             </p>
           </div>
         <div className='col-lg-1'/>  
