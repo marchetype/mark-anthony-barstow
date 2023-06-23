@@ -1,5 +1,5 @@
 import React from 'react';
-import igLogo from '../../assets/images/instagram-icon.png';
+import igLogo from '../../assets/images/vectors/instagram-icon.png';
 // import CamA from '../../assets/images/photoImages/Camera A FINAL Brightened.png';
 // import CamB from '../../assets/images/photoImages/Camera B FINAL Brightened.png';
 // import CamC from '../../assets/images/photoImages/Camera C FINAL Brightened.png';

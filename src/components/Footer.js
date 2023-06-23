@@ -1,9 +1,9 @@
 import React from 'react';
-import bootstrapLogo from '../assets/images/bootstrap-logo.svg';
-import reactLogo from '../assets/images/react-logo-2.svg';
-import jsLogo from '../assets/images/javascript-logo.svg'
-import htmlLogo from '../assets/images/html-logo.svg';
-import cssLogo from '../assets/images/css-logo.svg';
+import bootstrapLogo from '../assets/images/vectors/bootstrap-logo.svg';
+import reactLogo from '../assets/images/vectors/react-logo-2.svg';
+import jsLogo from '../assets/images/vectors/javascript-logo.svg'
+import htmlLogo from '../assets/images/vectors/html-logo.svg';
+import cssLogo from '../assets/images/vectors/css-logo.svg';
 
 export default function Footer() {
     return(
@@ -26,10 +26,12 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='col-12 col-md-4'>
-                    <h6 className='row justify-content-center'>Site Created by Mark Barstow</h6>
+                    <h6 className='row justify-content-center'>Site created by Mark Barstow</h6>
                     <div className='row justify-content-center'>
                         <div className='col-3'/>
-                        <p className='col-4'>GitHub: <a href='https://github.com/marchetype' target='_blank' rel='noreferrer'>marchetype</a></p>
+                        <div className='col-4 footer-gh'>
+                            <p>GITHUB: <a href='https://github.com/marchetype' target='_blank' rel='noreferrer'>MARCHETYPE</a></p>
+                        </div>
                     </div>
                 </div>
                 {/* this section only needed for spacing at the moment. */}

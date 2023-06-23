@@ -1,5 +1,5 @@
 import React from 'react';
-import ghLogo from '../../assets/images/github-sign.png'
+import ghLogo from '../../assets/images/vectors/github-sign.png'
 import RenderCodeProjects from '../CodeProjects';
 
 export default function Code() {

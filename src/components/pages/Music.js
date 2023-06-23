@@ -1,5 +1,5 @@
 import React from 'react';
-import scLogo from '../../assets/images/soundcloud-icon.png'
+import scLogo from '../../assets/images/vectors/soundcloud-icon.png'
 
 export default function Music() {
     return (

@@ -3,7 +3,7 @@
 
 
 :root {
-    --dark-coral: #FF5F00;
+    --dark-coral: #da6019;
     --ocean-green: #00B694;
     --bright-coral: #FF8F5F;
     --deep-seafoam: #00877D;
@@ -242,6 +242,16 @@ Footer, Footer a {
 .footer-logo {
     width: 50px;
     height:auto;
+}
+.footer-gh {
+    font-weight: 700;
+    font-size: 8pt;
+    color: #000000;
+}
+.footer-gh a {
+    text-decoration: none;
+    color: var(--dark-coral);
+
 }
 /* ELEMENT STYLING */
 html {

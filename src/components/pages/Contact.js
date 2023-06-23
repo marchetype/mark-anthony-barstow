@@ -1,5 +1,5 @@
 import React from 'react';
-import liLogo from '../../assets/images/linkedInLogo.png';
+import liLogo from '../../assets/images/vectors/linkedInLogo.png';
 
 export default function Contact() {
   return (
