@@ -13,7 +13,7 @@ export default function Photography() {
         <div className='photo-section container-fluid bright-gray-4'>
             <section className='barrier'/>
             <div className='row'>
-                <section className='col-12'>
+                <section className='col-3'>
                     <nav className=''>
                         <h4>External Links</h4>
                         <div className='container-fluid'>
@@ -26,13 +26,15 @@ export default function Photography() {
                         </div>
                     </nav>
                 </section>
+                <section className='primary-display col-9 justify-content-center'>
+                    <PhotographyCarousel/>
+                </section>
+
             </div>
             <main className='photo-showcase col-12'>
             {/* the main section may be able to provide two displays, one for smaller photos and one to show them in a larger size */}
                 <div className='row'>
-                    <section className='primary-display col-12 justify-content-center'>
-                        <PhotographyCarousel/>
-                    </section>
+                    
                     <section className='secondary-display col-12 col-md-6'>
 
                     </section>
