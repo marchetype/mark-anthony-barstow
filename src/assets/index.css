@@ -203,7 +203,7 @@ a {
     color: var(--bright-gray-5);
     font-weight: 800;
     font-style: italic;
-    rotate: -11deg;
+    rotate: -12deg;
 }
 .home-letter:hover > .home-letter-m, 
 .home-letter:hover >  .home-letter-a, 
