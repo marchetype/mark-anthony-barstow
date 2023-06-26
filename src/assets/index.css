@@ -180,6 +180,16 @@ a {
     color: var(--charcoal)
 }
 
+/* photography carousel styles */
+.item-c {
+    height: 500px;
+}
+
+.photo-c {
+    height: 100%;
+    object-fit: cover;
+}
+
 /* homepage letter styles */
 .home-letter-m, .home-letter-a, .home-letter-b {
     font-size: 160pt;
