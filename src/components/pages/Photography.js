@@ -1,6 +1,6 @@
 import React from 'react';
 import igLogo from '../../assets/images/vectors/instagram-icon.png';
-import RenderPhotographyCarousel from '../PhotographyCarousel';
+import PhotographyCarousel from '../PhotographyCarousel';
 // import CamA from '../../assets/images/photoImages/Camera A FINAL Brightened.png';
 // import CamB from '../../assets/images/photoImages/Camera B FINAL Brightened.png';
 // import CamC from '../../assets/images/photoImages/Camera C FINAL Brightened.png';
@@ -31,7 +31,7 @@ export default function Photography() {
             {/* the main section may be able to provide two displays, one for smaller photos and one to show them in a larger size */}
                 <div className='row'>
                     <section className='primary-display col-12 justify-content-center'>
-                        {RenderPhotographyCarousel()}
+                        <PhotographyCarousel/>
                     </section>
                     <section className='secondary-display col-12 col-md-6'>
 

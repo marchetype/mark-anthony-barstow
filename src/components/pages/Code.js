@@ -1,6 +1,6 @@
 import React from 'react';
 import ghLogo from '../../assets/images/vectors/github-sign.png'
-import RenderCodeProjects from '../CodeProjects';
+import CodeProjects from '../CodeProjects';
 
 export default function Code() {
     return (
@@ -23,7 +23,7 @@ export default function Code() {
                         </nav>
                     </aside>
 
-                    {RenderCodeProjects()}
+                    <CodeProjects/>
             
                 </div> 
                 <section className='barrier'/>

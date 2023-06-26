@@ -186,7 +186,14 @@ a {
 }
 
 .photo-c {
-    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-position: 0px -170px;
+    min-width: 1200px;
+    width: 100%;
+    scale: 100%;
     object-fit: cover;
 }
 
